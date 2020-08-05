@@ -7,6 +7,8 @@
     url: /index-2
   - text: Home 3
     url: index-3
+  - text: Home 4
+    url: index-4
 - text: About
   url: /about
 - text: Blog
