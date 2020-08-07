@@ -266,7 +266,7 @@ p {
 ===========================*/
 .header-top {
   position: relative;
-  background: #BFCAE6; }
+  background: #3e2986; }
   @media (max-width: 767px) {
     .header-top {
       padding-left: 0;
@@ -278,18 +278,36 @@ p {
   .header-top .header-top-item {
     height: 55px;
     align-items: center; }
-    .header-top .header-top-item .header-left-side p {
-      font-size: 14px;
-      color: #fff; }
-      @media (max-width: 767px) {
-        .header-top .header-top-item .header-left-side p {
-          line-height: 20px; } }
-      @media only screen and (min-width: 576px) and (max-width: 767px) {
-        .header-top .header-top-item .header-left-side p {
-          line-height: 20px;
-          font-size: 12px; } }
-      .header-top .header-top-item .header-left-side p i {
-        padding-right: 5px; }
+        .header-top.header-top .header-top-item .header-left-side ul li {
+          display: inline-block;
+          margin-right: 38px; }
+          @media (max-width: 767px) {
+            .header-top.header-top .header-top-item .header-left-side ul li {
+              margin-right: 5px; } }
+          @media only screen and (min-width: 576px) and (max-width: 767px) {
+            .header-top.header-top .header-top-item .header-left-side ul li {
+              margin-right: 38px; } }
+          .header-top.header-top .header-top-item .header-left-side ul li span {
+            font-size: 14px;
+            color: #fff;
+            font-weight: 500; }
+            .header-top.header-top .header-top-item .header-left-side ul li span a {
+              color: #8a8a8a; }
+            @media (max-width: 767px) {
+              .header-top.header-top .header-top-item .header-left-side ul li span {
+                font-size: 11px; } }
+            @media only screen and (min-width: 576px) and (max-width: 767px) {
+              .header-top.header-top .header-top-item .header-left-side ul li span {
+                font-size: 14px; } }
+            .header-top.header-top .header-top-item .header-left-side ul li span i {
+              color: #0154f7;
+              padding-right: 6px; } 
+        .header-top.header-top .header-top-item .header-right-social ul li a {
+          background-color: transparent;
+          color: #8a8a8a; }
+          .header-top.header-top .header-top-item .header-right-social ul li a:hover {
+            color: #0154f7; }
+  
     .header-top .header-top-item .header-right-social ul li {
       display: inline-block; }
       .header-top .header-top-item .header-right-social ul li a {
