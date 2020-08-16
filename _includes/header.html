@@ -7,34 +7,25 @@
                     <div class="header-left-side">
                         <ul>
                             <li>
-                                <span><i class="fal fa-phone"></i> +012 (345) 677</span>
+                                <span><i class="fal fa-phone"></i>{{site.phone_number}}</span>
                             </li>
                             <li>
-                                <span><i class="fal fa-envelope-open"></i> supportinfo@gmail.com</span>
+                                <span><i class="fal fa-envelope-open"></i> info@dachdeckermeister-martin.de</span>
                             </li>
                         </ul>
                     </div>
                     <div class="header-right-social d-flex justify-content-end align-items-center">
                         <ul class="d-none d-lg-block">
                             <li>
-                                <p><i class="fal fa-star"></i> Join With Us</p>
+                                <p><i class="fal fa-star"></i>Direkt per WhatsApp Kontakt aufnehmen</p>
                             </li>
                         </ul>
                         <ul class="d-none d-sm-block">
-                            {% if site.facebook_url %}
-                             <li><a target="__blank" href="{{site.facebook_url}}"><i class="fab fa-facebook-f"></i></a></li>
-                            {% endif %}
-                            {% if site.twitter_url %}
-                             <li><a target="__blank" href="{{site.twitter_url}}"><i class="fab fa-twitter"></i></a></li>
-                            {% endif %}
-                            {% if site.instagram_url %}
-                             <li><a target="__blank" href="{{site.instagram_url}}"><i class="fab fa-instagram"></i></a></li>
-                            {% endif %}
-                            {% if site.youtube_url %}
-                            <li><a target="__blank" href="{{site.youtube_url}}"><i class="fab fa-youtube"></i></a></li>
+                            {% if site.whatsapp_url %}
+                             <li><a target="__blank" href="{{site.whatsapp_url}}"><i class="fab fa-whatsapp"></i></a></li>
                             {% endif %}
                         </ul>
-                    </div>
+                    </div> 
                 </div> 
             </div>
         </div> 
