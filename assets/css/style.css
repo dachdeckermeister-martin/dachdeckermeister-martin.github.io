@@ -5819,4 +5819,89 @@ p {
       object-fit: cover;
     }
 
+/*===========================
+    14.impressum css 
+===========================*/
+.impressum-area {
+  padding-top: 117px;
+  padding-bottom: 115px; }
+  .impressum-area .section-title p {
+    padding-bottom: 48px; }
+  @media (max-width: 767px) {
+    .impressum-area .impressum-thumb {
+      margin-top: 30px; } }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .impressum-area .impressum-thumb {
+      margin-top: 60px; } }
+  .impressum-area .impressum-thumb img {
+    width: 100%; }
+  .impressum-area .impressum-content {
+    background: #ef5b51;
+    padding: 40px 20px 45px; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .impressum-area .impressum-content {
+        padding: 40px 50px 45px; } }
+    .impressum-area .faq-content .title {
+      color: #fff;
+      font-size: 24px; }
+    .impressum-area .impressum-content p {
+      color: #fff;
+      font-size: 14px;
+      line-height: 28px;
+      padding-top: 17px;
+      padding-bottom: 27px; }
+      @media only screen and (min-width: 992px) and (max-width: 1200px) {
+        .impressum-area .faq-content p {
+          font-size: 13px; } }
+    .impressum-area .faq-content a {
+      background: #d24238;
+      border-color: #d24238; }
+  .impressum-area.about-faq {
+    padding-top: 100px;
+    padding-bottom: 130px; }
+    .impressum-area.about-faq .faq-content {
+      background: #f86e03; }
+      .impressum-area.about-faq .faq-content a {
+        background: #d15b00;
+        border-color: #d15b00; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .impressum-area.about-faq .company-content {
+        margin-top: 30px;
+        padding-left: 0;
+        padding-right: 0; } }
+    @media (max-width: 767px) {
+      .impressum-area.about-faq .company-content {
+        margin-top: 30px;
+        padding-left: 0;
+        padding-right: 0; } }
+    .impressum-area.about-faq .company-content .section-title p {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 38px; }
+    .impressum-area.about-faq .company-content .company-item p {
+      padding-top: 30px;
+      padding-bottom: 35px; }
+    .impressum-area.about-faq .company-content .company-item ul li {
+      display: inline-block; }
+      @media (max-width: 767px) {
+        .impressum-area.about-faq .company-content .company-item ul li {
+          display: block; } }
+      @media only screen and (min-width: 576px) and (max-width: 767px) {
+        .impressum-area.about-faq .company-content .company-item ul li {
+          display: inline-block; } }
+      .impressum-area.about-faq .company-content .company-item ul li .link {
+        font-size: 15px;
+        font-weight: 600;
+        color: #f86e03;
+        margin-left: 35px; }
+        @media (max-width: 767px) {
+          .impressum-area.about-faq .company-content .company-item ul li .link {
+            margin-left: 0;
+            margin-top: 20px; } }
+        @media only screen and (min-width: 576px) and (max-width: 767px) {
+          .impressum-area.about-faq .company-content .company-item ul li .link {
+            margin-left: 35px;
+            margin-top: 0; } }
+        .impressum-area.about-faq .company-content .company-item ul li .link i {
+          padding-left: 6px; }
+    
 /*# sourceMappingURL=style.css.map */
