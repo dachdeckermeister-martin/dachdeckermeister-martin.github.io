@@ -3011,7 +3011,7 @@ p {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: #0154f7;
+    background-color: #3E2986;
     opacity: 0.702;
     z-index: -2; }
   .requst-quote-area::after {
@@ -3308,7 +3308,7 @@ p {
   z-index: 9999999; }
 
 .footer-3-area {
-  background: #041d47;
+  background: #3E2986;
   padding-top: 50px;
   position: relative; }
   .footer-3-area::before {
