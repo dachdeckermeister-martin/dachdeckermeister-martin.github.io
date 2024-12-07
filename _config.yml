@@ -1,7 +1,8 @@
-title: "Dachdeckermeister Martin - Meisterbetrieb aus Lahnstein"
+title: "Dachdeckermeister in Lahnstein | Steildach, Flachdach & Reparaturen"
 email: "info@dachdeckermeister-martin.de"
+keywords: "Dachdecker, Martin, Lahnstein, Dachdeckermeister"
 description: >- # this means to ignore newlines until "baseurl:"
- Dachdeckerei Martin ist Ihr Dachdecker aus Lahnstein. Jahrzehntelange Erfahrung. Überzeugen Sie sich selbst & nehmen Sie Kontakt mit uns auf!
+ Ihr Dachdecker in Lahnstein: Spezialist für Steildächer, Flachdächer, Dachsanierung und Reparaturen. Jetzt anrufen für ein unverbindliches Angebot!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dachdeckermeister-martin.de" # the base hostname & protocol for your site, e.g. http://example.com or  https://tradejk.netlify.com
 facebook_url: "https://www.facebook.com/jekyll"
