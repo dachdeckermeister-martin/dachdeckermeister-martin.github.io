@@ -2,9 +2,8 @@
 
 - text: Startseite
   url: /index
+- text: Standort Altenkirchen
+  url: /standort-altenkirchen
 - text: Kontakt
   url: /kontakt
-- text: Datenschutz
-  url: /datenschutz
-- text: Impressum
-  url: /impressum
+
